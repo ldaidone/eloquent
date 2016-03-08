@@ -27,7 +27,7 @@ In order to use Eloquent in your framework you can do one of the following
 3. Lazy load using traits; Create a base model and 
 ```
     class BaseModel extends \Illuminate\Database\Eloquent\Model {
-        use \erdiko\eloquent\EntityTraits;
+        use \erdiko\eloquent\EloquentTraits;
     }
 ```
 

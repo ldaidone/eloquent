@@ -41,5 +41,7 @@ Coming Soon
 Read More
 ---------
 
+http://erdiko.org
+
 https://laravel.com/docs/5.1/eloquent
 

@@ -9,7 +9,7 @@
  */
 namespace erdiko\eloquent;
 
-require_once 'bootstrap.php'; 
+require_once __DIR__.'/bootstrap.php';
 
 class Model extends \Illuminate\Database\Eloquent\Model
 {

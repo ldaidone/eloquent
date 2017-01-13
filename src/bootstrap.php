@@ -2,10 +2,9 @@
 /**
  * Bootstrap Eloquent
  *
- * @category    erdiko
- * @package     eloquent
- * @copyright   Copyright (c) 2016, Arroyo Labs, http://www.arroyolabs.com
- * @author      John Arroyo, john@arroyolabs.com
+ * @package     erdiko/eloquent
+ * @copyright   2012-2017 Arroyo Labs, Inc. http://www.arroyolabs.com
+ * @author      John Arroyo <john@arroyolabs.com>
  */
 
 use Illuminate\Database\Capsule\Manager as Capsule;  

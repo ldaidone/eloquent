@@ -12,7 +12,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 $capsule = new Capsule; 
 
 // Get db credentials from the database.json config
-$dbConfig = \Erdiko::getConfig('local/database');
+$dbConfig = \Erdiko::getConfig('shared/database');
 $creds = $dbConfig['connections'][$dbConfig['default']];
 $capsule->addConnection(array(
     'driver'    => $creds['driver'],

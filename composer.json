@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "erdiko/core": "^1.0.0",
-        "illuminate/database": "*"
+        "erdiko/core": "@dev",
+        "illuminate/database": "~5.1"
     },
     "autoload": {
         "psr-4": {

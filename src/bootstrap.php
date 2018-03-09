@@ -9,10 +9,13 @@
 
 use Illuminate\Database\Capsule\Manager as Capsule;  
 
-$capsule = new Capsule; 
+$capsule = new Capsule;
+
+$container = $app->getContainer();
+$settings = $container->get('settings');
 
 // Get db credentials from the database.json config
-$dbConfig = \Erdiko::getConfig('shared/database');
+$dbConfig = $settings['database'];
 $creds = $dbConfig['connections'][$dbConfig['default']];
 $capsule->addConnection(array(
     'driver'    => $creds['driver'],
